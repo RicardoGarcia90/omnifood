@@ -64,15 +64,8 @@ Medium: 11px
 }
 
 html {
-  /* font-size: 10px; */
-  /* 10px / 16px = 0.625 = 62.5% */
-  /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
-  /* colocamos na forma de porcentagem para respeitar o browser de cada usuário, se colocáseemos puramente 10px, caso o usuário pedisse para aumentar para 20px as letras ficariam muito grandes em alguns navegadores, usando a porcentagem esses 20px seriam adequados aos 62.5% da tela do usuário. */
   overflow-x: hidden;
-
-  /* Does NOT work on Safari */
-  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -81,7 +74,6 @@ body {
   font-weight: 400;
   color: #555;
 
-  /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
 
@@ -98,15 +90,8 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-
-  /* margin-bottom: 9.6rem; */
 }
 
-/* .grid:last-child {
-  margin-bottom: 0;
-} */
-
-/* Só adiciona margin-bottom se NÃO for o ultimo */
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
@@ -178,12 +163,10 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
-  /* Only necessary for .btn */
   border: none;
   cursor: pointer;
   font-family: inherit;
 
-  /* Put transition on original 'state' */
   transition: all 0.3s;
 }
 
@@ -209,8 +192,6 @@ body {
 .btn--outline:active {
   background-color: #fdf2e9;
 
-  /* border: 3px solid #fff; */
-  /* Trick to add border inside*/
   box-shadow: inset 0 0 0 3px #fff;
 }
 

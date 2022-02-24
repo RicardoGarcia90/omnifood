@@ -1,5 +1,3 @@
-/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
-
 /**********************************/
 /* BELOW 1344px (Smaller desktops) */
 /**********************************/
@@ -22,7 +20,6 @@
 /**********************************/
 @media (max-width: 75em) {
   html {
-    /* 9px / 16px = 56.25 */
     font-size: 56.25%;
   }
 
@@ -61,7 +58,6 @@
 /**********************************/
 @media (max-width: 59em) {
   html {
-    /* 8px / 16px = 50 */
     font-size: 50%;
   }
 
@@ -106,7 +102,6 @@
   }
 
   .cta {
-    /* 3/5 = 60% + 2/5 = 40% */
     grid-template-columns: 3fr 2fr;
   }
 
@@ -139,22 +134,13 @@
     justify-content: center;
     transition: all 0.5s ease-in;
 
-    /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none */
-    /* Usando o display:none eu não consigo fazer transições(animações), por isso para ocultar um item preciso fazer os três passos abaixo */
-
-    /* 1) Hide it visually */
     opacity: 0;
 
-    /* 2) Make it unacessible to mouse and keyboard */
     pointer-events: none;
 
-    /* 3) Hide it from screen readers */
     visibility: hiden;
   }
 
-  /* Para tornar visível */
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
