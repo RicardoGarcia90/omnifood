@@ -1,5 +1,5 @@
 /* 
-
+SYSTEM
 --- 01 TYPOGRAPHY SYSTEM
 
 - FONT SIZES (px)
@@ -24,14 +24,14 @@ Larrge: 1.8
 
 --- 02 COLORS
 
-- Primary: #e67e22
+- Primary: #40c057 
 - Tints:
-#fdf2e9
-#fae5d3
-#eb984e
+#d9f2dd
+#8cd99a
+#66cd79
 
 - Shades:
- #cf711f
+ #2d863d
  #45260a
 
 - Accents:
@@ -69,7 +69,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -146,7 +146,7 @@ body {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #cf711f;
+  color: #2d863d;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
@@ -172,13 +172,13 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #e67e22;
+  background-color: #40c057;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  background-color: #2d863d;
   color: #fff;
 }
 
@@ -210,7 +210,7 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  color: #40c057;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -219,7 +219,7 @@ body {
 
 .link:hover,
 .link:active {
-  color: #cf711f;
+  color: #2d863d;
   border-bottom: 1px solid transparent;
 }
 
@@ -233,7 +233,7 @@ body {
 .list-icon {
   width: 3rem;
   height: 3rem;
-  color: #e67e22;
+  color: #40c057;
 }
 
 .list-item {

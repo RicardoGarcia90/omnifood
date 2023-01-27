@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #d9f2dd;
 
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -38,7 +38,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #2d863d;
 }
 
 .main-nav-link.nav-cta:link,
@@ -46,12 +46,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #66cd79;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #2d863d;
 }
 
 /* MOBILE */
@@ -69,7 +69,7 @@
   color: #333;
 }
 
-.icon-mobile-nav[name="close-outline"] {
+.icon-mobile-nav[name='close-outline'] {
   display: none;
 }
 
@@ -95,7 +95,7 @@
 /* HERO SECTION */
 /**********************************/
 .section-hero {
-  background-color: #fdf2e9;
+  background-color: #d9f2dd;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -135,7 +135,7 @@
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.6rem;
-  border: 3px solid #fdf2e9;
+  border: 3px solid #d9f2dd;
 }
 
 .delivered-imgs img:last-child {
@@ -148,7 +148,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: #2d863d;
   font-weight: 700;
 }
 
@@ -209,7 +209,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: "";
+  content: '';
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -222,14 +222,14 @@
   width: 60%;
   padding-bottom: 60%;
 
-  background-color: #fdf2e9;
+  background-color: #d9f2dd;
   z-index: -2;
 }
 
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: #fae5d3;
+  background-color: #8cd99a;
   z-index: -1;
 }
 
@@ -310,7 +310,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #66cd79;
 }
 
 .meal-img {
@@ -326,7 +326,7 @@
 /* TESTIMONIALS SECTION */
 /**********************************/
 .section-testimonials {
-  background-color: #fdf2e9;
+  background-color: #d9f2dd;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -396,19 +396,19 @@
 
 .pricing-plan--starter {
   justify-self: end;
-  border: 2px solid #fdf2e9;
+  border: 2px solid #d9f2dd;
   padding: 4.6rem;
 }
 
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  background-color: #d9f2dd;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
 
 .pricing-plan--complete::after {
-  content: "Best value";
+  content: 'Best value';
   position: absolute;
   top: 6%;
   right: -18%;
@@ -429,7 +429,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: #2d863d;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -468,10 +468,10 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: #66cd79;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #fdf2e9;
+  background-color: #d9f2dd;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
@@ -502,7 +502,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #8cd99a, #66cd79);
 
   overflow: hidden;
 }
@@ -530,7 +530,7 @@
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/eating.jpg");
+    url('../img/eating.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -558,7 +558,7 @@
   color: inherit;
 
   border: none;
-  background-color: #fdf2e9;
+  background-color: #d9f2dd;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
