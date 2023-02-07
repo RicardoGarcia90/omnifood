@@ -1,5 +1,5 @@
 /* 
-
+SYSTEM
 --- 01 TYPOGRAPHY SYSTEM
 
 - FONT SIZES (px)
@@ -24,7 +24,7 @@ Larrge: 1.8
 
 --- 02 COLORS
 
-- Primary: #e67e22
+- Primary: #e67e22 
 - Tints:
 #fdf2e9
 #fae5d3
@@ -69,7 +69,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;

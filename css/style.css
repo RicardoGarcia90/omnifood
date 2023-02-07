@@ -46,7 +46,7 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #eb984e;
 }
 
 .main-nav-link.nav-cta:hover,
@@ -69,7 +69,7 @@
   color: #333;
 }
 
-.icon-mobile-nav[name="close-outline"] {
+.icon-mobile-nav[name='close-outline'] {
   display: none;
 }
 
@@ -209,7 +209,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: "";
+  content: '';
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -310,7 +310,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #eb984e;
 }
 
 .meal-img {
@@ -408,7 +408,7 @@
 }
 
 .pricing-plan--complete::after {
-  content: "Best value";
+  content: 'Best value';
   position: absolute;
   top: 6%;
   right: -18%;
@@ -468,7 +468,7 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: #eb984e;
   height: 3.2rem;
   width: 3.2rem;
   background-color: #fdf2e9;
@@ -502,7 +502,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #fae5d3, #eb984e);
 
   overflow: hidden;
 }
@@ -530,7 +530,7 @@
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/eating.jpg");
+    url('../img/eating.jpg');
   background-size: cover;
   background-position: center;
 }
